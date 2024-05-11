@@ -1,5 +1,6 @@
 Require { 
   pipewire
   pipewire-pulse
-  feh
+  feh 
+  playerctl
 }
