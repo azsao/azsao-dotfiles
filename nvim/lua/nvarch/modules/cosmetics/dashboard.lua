@@ -61,7 +61,7 @@ require("alpha").setup(dashboard.opts)
         callback = function()
           local stats = require("lazy").stats()
           local ms = (math.floor(stats.startuptime * 100 + 0.5) / 100)
-          dashboard.section.footer.val = "⚡ Yankee loaded "
+          dashboard.section.footer.val = "⚡ NvArch loaded "
             .. stats.loaded
             .. "/"
             .. stats.count
